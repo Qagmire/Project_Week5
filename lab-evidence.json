@@ -1,0 +1,51 @@
+{
+  "networkId": 5777,
+  "chainId": 1337,
+  "accounts": [
+    "0x88b0CF5cF7b5f2b33D9C009a12c044a67df2EfEE",
+    "0x65ECB8768Caf7d33CF1dB836D5ACDCaE0F8BEDEc"
+  ],
+  "ethBalances": [
+    "999987591535574583978",
+    "1000000000000000000000"
+  ],
+  "contracts": {
+    "MoolahCoin": "0x900BB3F292E1E1BCd9651f471fB7D384D459c24D",
+    "Condos": "0x1ED9a452093AC9895F771BB3981D5d411492e6C5"
+  },
+  "mcBalances": [
+    "900000",
+    "100000"
+  ],
+  "nft": {
+    "id": "1",
+    "owner": "0x65ECB8768Caf7d33CF1dB836D5ACDCaE0F8BEDEc",
+    "metadata": "Apartment A - Ho Chi Minh City - 80m2"
+  },
+  "receipts": [
+    {
+      "label": "Mint 100 MC",
+      "hash": "0x02789a619391460bc4eabc3fbeafadd7006e8edb66c805f9c4e4e5458b781678",
+      "block": 6,
+      "status": true
+    },
+    {
+      "label": "Transfer 10 MC",
+      "hash": "0x340df180a350698393aa8f75d6213d103fc5c30e383209d323c2fbc42531b3ee",
+      "block": 7,
+      "status": true
+    },
+    {
+      "label": "Mint NFT",
+      "hash": "0x4556e9a263289b28d5bf018fa24087108799c9168bccea57059d29e9edd3dc7d",
+      "block": 8,
+      "status": true
+    },
+    {
+      "label": "Transfer NFT",
+      "hash": "0xb226babb72c12443dcf21e3b62b5472823d9cfecef879e95fe58fc7ecaf34b9f",
+      "block": 9,
+      "status": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "tokenwallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development",
+    "sync-contracts": "node scripts/sync-contracts.js",
+    "deploy": "npm run migrate && npm run sync-contracts",
+    "test": "truffle test --network test",
+    "ganache": "node scripts/start-ganache.js",
+    "demo": "node scripts/demo.js",
+    "test:browser": "node scripts/browser-check.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "openzeppelin-solidity": "2.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "web3": "1.10.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "ganache": "7.9.2",
+    "solc": "0.5.2",
+    "vite": "6.1.0"
+  }
+}
